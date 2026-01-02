@@ -36,41 +36,56 @@
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
+            layers = <0>;
         };
 
         blooth {
             bindings = <&mo 4>;
             key-positions = <20 31>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         ctrl+z {
             bindings = <&kp K_BACK>;
             key-positions = <21 22>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         ctrl+shift+z {
             bindings = <&kp K_FORWARD>;
             key-positions = <22 23>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         ctrl+c {
             bindings = <&kp K_COPY>;
             key-positions = <23 24>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         ctrl+v {
             bindings = <&kp K_PASTE>;
             key-positions = <25 24>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         goto_blutooth {
             bindings = <&to 4>;
             key-positions = <5 9 30 26>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         go_m0 {
             bindings = <&to 0>;
             key-positions = <32 34>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
